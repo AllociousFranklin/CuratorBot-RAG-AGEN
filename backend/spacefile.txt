@@ -1,0 +1,10 @@
+# Deta Space Deployment Config
+v: 0
+app_name: medicurebot-backend
+project_name: medicurebot
+micros:
+  - name: backend
+    src: .
+    engine: python3.9
+    primary: true
+    run: uvicorn backend_api:app --host 0.0.0.0 --port 8000

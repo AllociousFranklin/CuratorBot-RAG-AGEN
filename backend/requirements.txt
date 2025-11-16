@@ -5,3 +5,5 @@ google-generativeai
 faiss-cpu
 sentence-transformers
 tqdm
+requests
+rank-bm25
